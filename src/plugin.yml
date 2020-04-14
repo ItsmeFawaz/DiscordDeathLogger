@@ -1,0 +1,5 @@
+name: DiscordDeathLogger
+version: "1.0"
+main: me.bottleofglass.DiscordDeathLogger.DiscordBotPlugin
+author: Faw
+description: "simple little discord death logger plugin for kleinesNugget's kitpvp plugin"

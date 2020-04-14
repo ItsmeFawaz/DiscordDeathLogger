@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DiscordDeathLogger:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DiscordDeathLogger_jar</output-path>
+    <root id="archive" name="DiscordDeathLogger.jar">
+      <element id="module-output" name="DiscordDeathLogger" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/JDA-4.1.1_136-withDependencies-min.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
