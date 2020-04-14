@@ -10,7 +10,6 @@ import org.guildcraft.kitpvp.events.PlayerKilledByPlayerEvent;
 public class KitPvPDeathListener implements Listener {
     @EventHandler
     public void onKitPvPDeath(PlayerKilledByPlayerEvent evt) {
-        TextChannel channel = BotManager.getJda().getTextChannelById(DiscordBotPlugin.getInstance().getConfig().getLong("channelID"));
-        channel.sendMessage(evt.getKilled().getName() + " has been brutally murdered by " + evt.getKiller().getName()).queue();
+        BotManager.getChannel().sendMessage(evt.getKilled().getName() + " has been brutally murdered by " + evt.getKiller().getName()).queue();
     }
 }
